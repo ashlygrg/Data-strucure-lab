@@ -30,9 +30,7 @@ void main()
         	while(j<n)
         	{
         	  t++;
-        		if (a[small]>a[j])
-        		
-        		{
+        		if (a[small]>a[j]){
         		t++;
         		small=j;
         		  t++;
@@ -41,8 +39,7 @@ void main()
         	t++;
         	}
         	  t++;
-        	if (i!=small)
-        	
+        	if (i!=small){
         	{
         		temp=a[i];
         		t++;
@@ -57,7 +54,6 @@ void main()
         		printf("sorted array is: ");
         		t++;
         		for(i=0;i<n;i++)
-        		
         		{
         			printf("%d \t",a[i]);
         		       t++;
@@ -66,7 +62,6 @@ void main()
        printf("space complexity =%d",(6*4+4*n));
        t++;
        printf("time complexity = %d",t);
-
  }
         	
         			
